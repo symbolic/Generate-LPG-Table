@@ -1,0 +1,35 @@
+*************Table 24E*************
+5.1.1.1  Inputs and Outputs 
+Inputs:   Relative density at 60°F, γ60
+Observed temperature, TF(°F) 
+
+Output:   Temperature Correction Factor, CTL(from TF to TB)
+
+*************Table 23E*************
+5.1.2.1  Inputs and Outputs 
+Inputs:  Relative density at observed temperature, γx
+Observed temperature, TF(°F) 
+
+Output:  Relative density at 60°F, γ60 
+
+*************Table 54E*************
+5.2.1.1  Inputs and Outputs 
+Inputs:   Density at 15°C, ρ15(kg/m3) 
+Observed temperature, TF(°C) 
+
+Output:   Temperature Correction Factor, CTL(from TF to TB) 
+
+*************Table 60E*************
+5.3.1.1  Inputs and Outputs 
+Inputs:   Density at 20°C, ρ20(kg/m3) 
+Observed temperature, TF(°C) 
+
+Output:   Temperature Correction Factor, CTL(from TF to TB)
+
+*************Table 59E*************
+5.3.2.1  Inputs and Outputs 
+Inputs:  Density at observed temperature, ρx(kg/m3) 
+Observed temperature, TF(°C) 
+
+Output:  Density at 20°C, ρ20 (kg/m3) 
+
