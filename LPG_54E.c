@@ -118,7 +118,7 @@ int main(void)
 			//if (j == 0 && i != 0)	//第一列显示温度值
 			//	fprintf(fp, "%-6d", temp_low+i*5-5);
 			if (i*j != 0)
-				fprintf(fp, "%7.0f, ", (table_54e(density_low+j*5-5, (temp_low+i*5-5)/10.0)*100000.0));
+				fprintf(fp, "%7.0f\t", (table_54e(density_low+j*5-5, (temp_low+i*5-5)/10.0)*100000.0));
 		}
 		if (i)
 			fprintf(fp, "\t//%-6.1f℃\n", (float)(temp_low+i*5-5)/10.0);

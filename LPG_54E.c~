@@ -102,7 +102,7 @@ int main(void)
 	int length2 = (temp_high-temp_low)/5+2;
 	fp = fopen("table_54e.txt","w");
 	fprintf(fp, "//该系数为 实际值*100000\n//注意：若取值<0，则无效。\n");
-	fprintf(fp, "//密度范围：355～685，单位：kg/m³\n//温度范围：-40.0～+50.0，单位：℃\n");
+	fprintf(fp, "//密度范围：355～685，单位：kg/m³\n//温度范围：-40.0～+65.0，单位：℃\n");
 	
 	for (int i = 0; i < length2; i++)
 	{
